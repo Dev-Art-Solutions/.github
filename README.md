@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://devart.solutions/logo.png" width="120" alt="Dev Art Solutions Logo" />
+  <img src="https://avatars.githubusercontent.com/u/102830577?s=200&v=4" width="120" alt="Dev Art Solutions Logo" />
 </p>
 
 <h1 align="center">Dev Art Solutions</h1>
