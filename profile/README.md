@@ -1,90 +1,72 @@
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/102830577?s=200&v=4" width="120" alt="Dev Art Solutions Logo" />
-</p>
+<img src="https://avatars.githubusercontent.com/u/102830577?s=200&v=4" alt="Dev Art Solutions Logo" width="120" />
 
-<h1 align="center">Dev Art Solutions</h1>
+# Dev Art Solutions
 
-<p align="center">
-  <strong>AI engineering, automation, and open-source tooling for modern .NET systems.</strong>
-</p>
+**We build AI and agent systems that ship to production — language-agnostic, not just demos.**
 
-<p align="center">
-  <a href="https://devart.solutions">Website</a> ·
-  <a href="https://github.com/Dev-Art-Solutions">GitHub</a>
-</p>
+[Website](https://devart.solutions) · [GitHub](https://github.com/Dev-Art-Solutions)
 
 ---
 
 ## What we build
 
-Dev Art Solutions builds production-oriented AI systems, developer tools, and automation platforms.
+Dev Art Solutions is a family-run engineering studio building production-oriented AI systems, developer tools, and automation platforms.
 
-Our focus is simple:
+Our focus:
 
-- AI infrastructure
-- Conversational AI systems
-- .NET developer tooling
-- LLM integrations
-- Automation platforms
-- Open-source SDKs
+- LLM integrations into existing software
+- Local / on-premise AI infrastructure (Ollama)
+- Conversational and agentic systems
+- Workflow and process automation
+- Open-source developer tooling and SDKs
 
-We are especially focused on practical AI products that can be integrated into real software systems — not just demos.
+We care about practical AI that runs inside real products — across whatever stack the product needs (.NET, Node, React, Angular).
 
 ---
 
-## Featured projects
+## Products
+
+### SamsaraForge
+
+A platform for deliberate personal progress: long-term AI memory, task automation, and psychological profiling (IQ, EQ, Big Five) with real scoring logic. Integrates [OpenClaw](https://openclaw.ai) as an external agent service.
+
+Stack: Next.js · PostgreSQL · Ollama / OpenAI · OpenClaw
+Live: [samsaraforge.com](https://samsaraforge.com/)
+
+### Dev Smart Academy
+
+A learning platform that tracks where you make mistakes and automatically schedules practice on your weak points. Connects to OpenClaw to auto-generate content, code snippets, and diagrams.
+
+Stack: Angular · PostgreSQL · AI quiz engine · OpenClaw
+Live: [dev-smart.academy](https://dev-smart.academy/)
+
+---
+
+## Open-source projects
 
 ### OllamaClient
 
-A .NET client library for integrating with Ollama APIs in C# applications.
-
-Useful for:
-
-- local LLM integrations
-- ASP.NET Core applications
-- AI assistants
-- streaming chat experiences
-- developer tooling
+A .NET client library for integrating with Ollama APIs in C# applications — local LLM integrations, ASP.NET Core apps, streaming chat, and developer tooling.
 
 Repository: [OllamaClient](https://github.com/Dev-Art-Solutions/OllamaClient)
 
----
-
 ### SmoothLingua
 
-An open-source conversational AI framework for building intelligent agents, intent recognition, rules, and conversation flows.
+An open-source conversational AI framework for building agents, intent recognition, rules, and conversation flows.
 
-Repository: [SmoothLingua](https://github.com/Dev-Art-Solutions/SmoothLingua)
-
----
-
-### SmoothLingua.Api
-
-A REST API implementation showcasing how SmoothLingua can be used in real applications.
-
-Repository: [SmoothLingua.Api](https://github.com/Dev-Art-Solutions/SmoothLingua.Api)
+Repository: [SmoothLingua](https://github.com/Dev-Art-Solutions/SmoothLingua) · [SmoothLingua.Api](https://github.com/Dev-Art-Solutions/SmoothLingua.Api)
 
 ---
 
 ## Engineering focus
 
-We care about building AI systems that are:
+We build AI systems that are reliable, extensible, maintainable, observable, and production-ready.
 
-- reliable
-- extensible
-- maintainable
-- observable
-- developer-friendly
-- production-ready
+Tools we work with:
 
-Our preferred stack includes:
-
-```txt
-.NET / ASP.NET Core
-C#
-Docker
-REST APIs
-LLM Integrations
-Ollama
-OpenAI-compatible APIs
-Automation Systems
+```
+AI / Agents     LLM integrations · OpenClaw · RAG · Ollama · OpenAI-compatible APIs
+Backend         .NET / ASP.NET Core · C# · Node · REST APIs
+Frontend        React · Next.js · Angular · TypeScript
+Infra           Docker · CI/CD · PostgreSQL
+```
