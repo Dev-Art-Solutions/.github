@@ -1,3 +1,5 @@
+<div align="center">
+
 <img src="https://avatars.githubusercontent.com/u/102830577?s=200&v=4" alt="Dev Art Solutions Logo" width="120" />
 
 # Dev Art Solutions
@@ -5,6 +7,8 @@
 **We build AI and agent systems that ship to production — language-agnostic, not just demos.**
 
 [Website](https://devart.solutions) · [GitHub](https://github.com/Dev-Art-Solutions)
+
+</div>
 
 ---
 
