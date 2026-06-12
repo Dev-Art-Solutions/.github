@@ -54,6 +54,8 @@ A .NET client library for integrating with Ollama APIs in C# applications — lo
 
 Repository: [OllamaClient](https://github.com/Dev-Art-Solutions/OllamaClient)
 
+---
+
 ### InferHub
 
 [#inferhub](#inferhub)
