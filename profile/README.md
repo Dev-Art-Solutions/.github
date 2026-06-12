@@ -54,6 +54,25 @@ A .NET client library for integrating with Ollama APIs in C# applications — lo
 
 Repository: [OllamaClient](https://github.com/Dev-Art-Solutions/OllamaClient)
 
+### InferHub
+
+[#inferhub](#inferhub)
+
+A self-hosted LLM inference mesh in .NET. One Ollama-compatible API in front, a pool of GPU worker nodes behind it — run the hub where you have no GPU, run the nodes where you do.
+
+Useful for:
+
+- pooling GPUs across several machines behind one stable endpoint
+- serving LLMs from behind a home router, with no port forwarding
+- letting existing Ollama clients, scripts, and editor plugins keep working unchanged
+- pluggable inference backends (Ollama first; vLLM, llama.cpp and others can slot in later)
+
+Built on our own [OllamaClient](https://github.com/Dev-Art-Solutions/OllamaClient).
+
+Repository: [InferHub](https://github.com/Dev-Art-Solutions/InferHub)
+
+---
+
 ### SmoothLingua
 
 An open-source conversational AI framework for building agents, intent recognition, rules, and conversation flows.
