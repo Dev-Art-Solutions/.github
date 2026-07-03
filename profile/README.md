@@ -75,6 +75,14 @@ Repository: [InferHub](https://github.com/Dev-Art-Solutions/InferHub)
 
 ---
 
+### InferHub.Client
+
+A small, typed .NET client for talking to an InferHub coordinator from C#. Dependency-injection friendly, `System.Text.Json` under the hood, no heavy dependencies. Ships with blocking chat / generate first; streaming, embeddings, vector data-plane, RAG headers and admin surface follow phase by phase.
+
+Repository: [InferHub.Client](https://github.com/Dev-Art-Solutions/InferHub.Client)
+
+---
+
 ### SmoothLingua
 
 An open-source conversational AI framework for building agents, intent recognition, rules, and conversation flows.
