@@ -48,6 +48,16 @@ Live: [dev-smart.academy](https://dev-smart.academy/)
 
 ## Open-source projects
 
+### EvoMesh
+
+An open-source, local-first, self-evolving multi-agent environment. Agents live inside a shared environment, communicate through an asynchronous message layer, acquire reusable skills, maintain persistent state, and can create new agent definitions. The v0.1 foundation isolates candidate generations and preserves last-known-good rollback metadata while promotion remains human-controlled.
+
+EvoMesh works directly with Ollama and other local OpenAI-compatible endpoints; it can also use InferHub as an optional local/self-hosted model provider.
+
+Repository: [EvoMesh](https://github.com/Dev-Art-Solutions/EvoMesh) · [Documentation](https://evomesh.devart.solutions)
+
+---
+
 ### OllamaClient
 
 A .NET client library for integrating with Ollama APIs in C# applications — local LLM integrations, ASP.NET Core apps, streaming chat, and developer tooling.
@@ -75,11 +85,11 @@ Repository: [InferHub](https://github.com/Dev-Art-Solutions/InferHub)
 
 ---
 
-### InferHub.Client
+### InferHub.Clients
 
-A small, typed .NET client for talking to an InferHub coordinator from C#. Dependency-injection friendly, `System.Text.Json` under the hood, no heavy dependencies. Ships with blocking chat / generate first; streaming, embeddings, vector data-plane, RAG headers and admin surface follow phase by phase.
+A set of typed .NET clients for talking to an InferHub coordinator from C#. Dependency-injection friendly, `System.Text.Json` under the hood, and designed for lightweight integration with InferHub services.
 
-Repository: [InferHub.Client](https://github.com/Dev-Art-Solutions/InferHub.Client)
+Repository: [InferHub.Clients](https://github.com/Dev-Art-Solutions/InferHub.Clients)
 
 ---
 
@@ -98,8 +108,8 @@ We build AI systems that are reliable, extensible, maintainable, observable, and
 Tools we work with:
 
 ```
-AI / Agents     LLM integrations · OpenClaw · RAG · Ollama · OpenAI-compatible APIs
-Backend         .NET / ASP.NET Core · C# · Node · REST APIs
+AI / Agents     Local LLMs · Agent systems · RAG · Ollama · InferHub · OpenClaw
+Backend         .NET / ASP.NET Core · C# · Python · Node · REST APIs
 Frontend        React · Next.js · Angular · TypeScript
-Infra           Docker · CI/CD · PostgreSQL
+Infra           Docker · CI/CD · PostgreSQL · SQLite
 ```
