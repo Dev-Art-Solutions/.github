@@ -30,6 +30,15 @@ We care about practical AI that runs inside real products — across whatever st
 
 ## Products
 
+### TradeAudit
+
+A desktop trading intelligence platform for MetaTrader 5 traders: R-multiple risk accounting, strategy-vs-execution compliance analysis, behavioral/emotional discipline detection (FOMO, revenge trading, overtrading), quantitative research (Monte Carlo, Risk of Ruin, bootstrap intervals), and interactive candlestick trade replay.
+
+Stack: Python · PySide6 (Qt6) · SQLite / SQLAlchemy · MetaTrader5 SDK
+Repository: [TradeAudit](https://github.com/Dev-Art-Solutions/TradeAudit)
+
+---
+
 ### SamsaraForge
 
 A platform for deliberate personal progress: long-term AI memory, task automation, and psychological profiling (IQ, EQ, Big Five) with real scoring logic. Integrates [OpenClaw](https://openclaw.ai) as an external agent service.
