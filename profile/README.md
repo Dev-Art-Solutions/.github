@@ -39,6 +39,15 @@ Repository: [TradeAudit](https://github.com/Dev-Art-Solutions/TradeAudit)
 
 ---
 
+### MT5 RiskGuard
+
+A lightweight, strategy-agnostic MetaTrader 5 Expert Advisor that continuously monitors account risk and exposes deterministic `SAFE`, `RESTRICTED`, `BLOCKED`, and `EMERGENCY` states. It enforces configurable daily-loss, per-position risk, trade-count, open-position, trading-session, and spread policies with restart-safe state and opt-in scoped liquidation.
+
+Stack: MQL5 · MetaTrader 5 · GitHub Actions
+Repository: [MT5 RiskGuard](https://github.com/Dev-Art-Solutions/RiskGuard)
+
+---
+
 ### SamsaraForge
 
 A platform for deliberate personal progress: long-term AI memory, task automation, and psychological profiling (IQ, EQ, Big Five) with real scoring logic. Integrates [OpenClaw](https://openclaw.ai) as an external agent service.
