@@ -48,6 +48,15 @@ Repository: [MT5 RiskGuard](https://github.com/Dev-Art-Solutions/RiskGuard)
 
 ---
 
+### MT5 Execution Bridge
+
+A local-first FastAPI service that receives structured trading signals, persists and de-duplicates them with a durable SQLite queue, applies a deterministic risk pipeline (stop-loss, spread, daily-loss, trade/position limits, risk-based position sizing), and routes approved orders to MetaTrader 5 with `order_check()`/`order_send()`, crash-safe reconciliation, and a full audit trail. Dry-run by default, with a dual opt-in required before any live order is sent.
+
+Stack: Python · FastAPI · SQLite · MetaTrader5 SDK · GitHub Actions
+Repository: [MT5 Execution Bridge](https://github.com/Dev-Art-Solutions/MT5-Execution-Bridge)
+
+---
+
 ### SamsaraForge
 
 A platform for deliberate personal progress: long-term AI memory, task automation, and psychological profiling (IQ, EQ, Big Five) with real scoring logic. Integrates [OpenClaw](https://openclaw.ai) as an external agent service.
